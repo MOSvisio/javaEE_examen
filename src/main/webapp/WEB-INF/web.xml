@@ -1,0 +1,63 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  	<display-name>Archetype Created Web Application</display-name>
+  	<servlet>
+		<servlet-name>RestaurantServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.RestaurantServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>PlatServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.PlatServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>DeletePlatServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.DeletePlatServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>CreerRestaurantServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.CreerRestaurantServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>ModifierRestaurantServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.ModifierRestaurantServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>CreerPlatServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.CreerPlatServlet</servlet-class>
+ 	</servlet>
+ 	<servlet>
+		<servlet-name>ModifierPlatServlet</servlet-name>
+		<servlet-class>org.exam.Servlets.ModifierPlatServlet</servlet-class>
+ 	</servlet>
+ 	<servlet-mapping>
+		<servlet-name>RestaurantServlet</servlet-name>
+		<url-pattern>/restaurants</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PlatServlet</servlet-name>
+		<url-pattern>/plats</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeletePlatServlet</servlet-name>
+		<url-pattern>/plats/delete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreerRestaurantServlet</servlet-name>
+		<url-pattern>/restaurants/creer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifierRestaurantServlet</servlet-name>
+		<url-pattern>/restaurants/modifier</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreerPlatServlet</servlet-name>
+		<url-pattern>/plats/creer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifierPlatServlet</servlet-name>
+		<url-pattern>/plats/modifier</url-pattern>
+	</servlet-mapping>
+</web-app>
